@@ -14,6 +14,7 @@ end
 
 def total_tardies_for_all_students
   "SELECT COUNT(total_tardies_for_all_students) FRON students;"
+end
 
 def average_gpa_for_9th_grade
 end
