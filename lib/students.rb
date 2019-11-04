@@ -5,7 +5,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
-  "SELECT MIN (student.pga) FROM students;"
+  "SELECT MIN (students.pga) FROM students;"
 end
 
 def average_student_gpa
